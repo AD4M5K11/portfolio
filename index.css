@@ -148,23 +148,23 @@ body{
     79.5% {
 
         top: 32%;
-        right: 3%;
-        width: 130%;
+        right: -10%;
+        width: 145%;
     }
 
     80% {
 
         top: 32%;
-        right: 3%;
-        width: 145%;
+        right: -10%;
+        width: 170%;
 
     }
 
     100% {
 
         top: 32%;
-        right: 3%;
-        width: 145%;
+        right: -10%;
+        width: 170%;
 
     }
 
@@ -641,11 +641,12 @@ body{
    .sound {
     display: flex;
     color: white;
-    font-size: 60%;
-    width: 5%;
-    height: 5%;
-    top: 5%;
-    left: 11%;
+    font-size: 90%;
+    transform: rotate(47deg);
+    width: 18%;
+    height: 10%;
+    top: 13%;
+    left: 9%;
     position: absolute; 
     z-index: 4;
     background-color: transparent;
