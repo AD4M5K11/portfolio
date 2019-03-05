@@ -20,7 +20,6 @@ body{
     min-width: 1%;
     min-height: 1%;
     overflow: hidden;
-    overflow: none;
     position: absolute;
     
 
@@ -643,8 +642,8 @@ body{
     display: flex;
     color: white;
     font-size: 80%;
-    width: 20%;
-    height: 30%;
+    width: 2%;
+    height: 5%;
     top: 5%;
     left: 15%;
     position: absolute; 
