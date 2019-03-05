@@ -641,11 +641,11 @@ body{
    .sound {
     display: flex;
     color: white;
-    font-size: 80%;
-    width: 2%;
+    font-size: 60%;
+    width: 5%;
     height: 5%;
     top: 5%;
-    left: 15%;
+    left: 11%;
     position: absolute; 
     z-index: 4;
     background-color: transparent;
