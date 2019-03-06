@@ -118,6 +118,7 @@ h1 {
     background-size: 100% 100%;
     top: 8%;
     display: flex;
+    overflow: hidden;
 }
 
 .view {
@@ -230,6 +231,7 @@ h1 {
         flex-grow: inherit;
         flex-shrink: inherit;
         flex-wrap: wrap;
+        overflow: hidden;
 
 
     }
@@ -433,10 +435,7 @@ h1 {
     animation-duration: 0.8s;
     animation-delay: 40s;
     animation-iteration-count: infinite;
-    transform: rotateZ(deg);
-   
-    
-    
+    overflow: hidden;    
     
 }
 
