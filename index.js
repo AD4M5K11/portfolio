@@ -1,4 +1,3 @@
-const aboutMe = document.querySelector('.aboutme');
 const projects = document.querySelector('.projects');
 const contact = document.querySelector('.contact');
 
@@ -13,10 +12,11 @@ const supra = document.querySelector('.sound')
 
     });
 
-   aboutMe.addEventListener('click', (event) => {
+    function aboutMe(show) {
+        var press = document.getElementById('.aboutme');
+        if(press.style.display == 'block')
+           press.style.display = 'none';
+        else
+           press.style.display = 'block';
+     }
 
-    const showAboutMe = document.querySelector('.aboutme');
-    showAboutMe.open()
-    showAboutMe.currentTime = 0
-
-   });
