@@ -12,11 +12,9 @@ const supra = document.querySelector('.sound')
 
     });
 
-    function aboutMe(show) {
-        var press = document.getElementById('.aboutme');
-        if(press.style.display == 'block')
-           press.style.display = 'none';
-        else
-           press.style.display = 'block';
-     }
+    let showAboutMe = document.querySelector('.aboutme')
+    function function1() {
+       showAboutMe.classList.toggle('.aboutme')
+    };
+      
 
