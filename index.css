@@ -159,7 +159,7 @@ h5 {
 
 }
 
-@media only screen and (max-height: 900px) {
+@media only screen and (max-width: 600px) {
 
     h5 {
 
@@ -198,7 +198,7 @@ h5 {
 
 }
 
-@media only screen and (max-height: 900px) {
+@media only screen and (max-width: 600px) {
 
     .aboutme, .projectss, .contact {
 
@@ -208,7 +208,7 @@ h5 {
 
 }
 
-@media only screen and (max-height: 900px) {
+@media only screen and (max-width: 600px) {
 
     .sound {
 
@@ -375,7 +375,7 @@ p2 {
 
 }
 
-@media only screen and (max-height: 900px) {
+@media only screen and (max-width: 600px) {
 
     p, c, a, d, e, p2 {
 
@@ -408,7 +408,7 @@ h1 {
 
 }
 
-@media only screen and (max-height: 812px) {
+@media only screen and (max-width: 600px) {
 
     h1, h4 {
 
