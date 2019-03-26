@@ -28,6 +28,8 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
     position: absolute;
+    background-position: 50% 50%;
+    object-fit: cover
 
 }
 
@@ -50,6 +52,8 @@ body{
     overflow: hidden;
     position: absolute;
     z-index: 3;
+    background-position: 50% 50%;
+    object-fit: cover
 
 }
 
@@ -72,6 +76,8 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
     flex-direction: row;
+    background-position: 50% 50%;
+    object-fit: cover
 
 }
 
@@ -456,6 +462,8 @@ h1 {
     max-height: 150%;
     margin: 0;
     overflow: hidden;
+    background-position: 50% 50%;
+    object-fit: cover
    
 }
 
@@ -474,6 +482,8 @@ h1 {
         width: 24%; 
         margin: 0;
         overflow: hidden;
+        background-position: 50% 50%;
+    object-fit: cover
 
     }
     
@@ -494,6 +504,8 @@ h1 {
         border: 0px transparent solid;
         z-index: 3;
         height: 100%;
+        background-position: 50% 50%;
+    object-fit: cover
     
     }
 
@@ -639,6 +651,8 @@ h1 {
     margin: 0;
     top: 32%;
     overflow: hidden;
+    background-position: 50% 50%;
+    object-fit: cover
     
 }
 
@@ -662,6 +676,8 @@ h1 {
     animation-iteration-count: 1;
     padding-bottom: 0;
     padding-right: 0;
+    background-position: 50% 50%;
+    object-fit: cover
   
 
 }
@@ -735,6 +751,8 @@ h1 {
     animation-iteration-count: 1;
     transform: rotateZ(deg);
     overflow: hidden;
+    background-position: 50% 50%;
+    object-fit: cover
    
     
     
@@ -809,7 +827,9 @@ h1 {
     animation-duration: 0.8s;
     animation-delay: 30s;
     animation-iteration-count: infinite;
-    overflow: hidden;    
+    overflow: hidden;  
+    background-position: 50% 50%;
+    object-fit: cover  
     
 }
 
