@@ -71,13 +71,12 @@ body{
     max-height: 150%;
     margin: 0;
     flex-wrap: wrap;
-    background-size: 100% 100%;
     top: 200%;
     overflow-x: hidden;
     overflow-y: scroll;
     flex-direction: row;
     background-position: 50% 50%;
-    object-fit: cover
+    object-fit: cover;
 
 }
 
@@ -600,7 +599,7 @@ h1 {
         margin: 0;
         overflow: hidden; 
         border: 0px transparent solid;
-        z-index: 3;
+        z-index: 2;
      
     }
 
